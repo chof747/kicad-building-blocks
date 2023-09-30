@@ -1,0 +1,55 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid e8426e51-e5a9-4642-8277-6d3f50e0e523)
+
+  (paper "A4")
+
+  (title_block
+    (company "chof.org")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 54.61 62.23) (size 62.23 7.62) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 2c758b62-140c-4359-9cab-28bace822fa2)
+    (property "Sheetname" "ESP12-F Strapping and Reset Circuit" (at 54.61 61.5184 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "esp12-f_strapping-reset.kicad_sch" (at 54.61 70.4346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (property "Title" "ESP12-F Strapping and Reset Circuit" (at 54.61 62.23 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "kicad-building-blocks"
+        (path "/e8426e51-e5a9-4642-8277-6d3f50e0e523" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 54.61 48.26) (size 62.23 7.62) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid fc99e2e1-ca7d-4106-a810-793b41b4a7d5)
+    (property "Sheetname" "MCU 3v3 Power Regulation" (at 54.61 47.5484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "mcu_3v3_pwr_regulation.kicad_sch" (at 54.61 56.4646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "kicad-building-blocks"
+        (path "/e8426e51-e5a9-4642-8277-6d3f50e0e523" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

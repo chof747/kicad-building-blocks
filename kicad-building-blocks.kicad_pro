@@ -409,7 +409,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "template-project.kicad_pro",
+    "filename": "kicad-building-blocks.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -532,6 +532,14 @@
     [
       "e8426e51-e5a9-4642-8277-6d3f50e0e523",
       ""
+    ],
+    [
+      "fc99e2e1-ca7d-4106-a810-793b41b4a7d5",
+      "MCU 3v3 Power Regulation"
+    ],
+    [
+      "2c758b62-140c-4359-9cab-28bace822fa2",
+      "ESP12-F Strapping and Reset Circuit"
     ]
   ],
   "text_variables": {}
